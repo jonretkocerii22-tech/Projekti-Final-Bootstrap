@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-color: #111111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #171717 !important;
+    padding: 18px 0;
+    border-bottom: 2px solid #dc3545;
+}
+.navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navbar-brand span {
+    color: #dc3545;
+}
+.navbar .nav-link {
+    color: #dddddd;
+    font-weight: 500;
+    margin-left: 12px;
+    transition: color 0.3s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #dc3545;
+}
+section {
+    text-align: center;
+    padding: 100px 20px;
+}
+section h1 {
+    margin-bottom: 25px;
+}
+section h2 {
+    margin-bottom: 20px;
+}
+section h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+section p {
+    margin-bottom: 25px;
+}
+.row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.col {
+    padding: 25px;
+}
+.font{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.contact-label {
+    font-weight: bold;
+}
+form {
+    margin-top: 30px;
+}
+form div {
+    margin-bottom: 20px;
+}
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #222222;
+    color: white;
+}
+form textarea {
+    height: 120px;
+}
+form input:focus,
+form textarea:focus {
+    border-color: #dc3545;
+    outline: none;
+}
+form button {
+    margin-top: 10px;
+}
+#card1{
+    border: 1px red solid;
+    margin: 10px;
+}
+#card2{
+    border: 1px red solid;
+    margin: 10px;
+}
+#card3{
+    border: 1px red solid;
+    margin: 10px;
+}
+#home-page{
+    background-image: url(Iron\ Zone_\ Cinematic\ Industrial\ Gym.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-text{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+}
+#text{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+}
